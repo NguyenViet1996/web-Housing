@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Housing</title>
+
+  <!-- FONT GOOGLE -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet" />
+  <!-- JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+  <!-- BS4 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" <!-- INDEX CSS -->
+  <link rel="stylesheet" href="./css/Housing.css">
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="header__content">
+        <div class="header__content__text1">
+          <span>Hous</span><span class="right">ing</span>
+        </div>
+        <div class="header__content__text2">
+          <nav>
+            <ul>
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Blog">Blog</a></li>
+              <li><a href="#Portfolio">Portfolio</a></li>
+              <li><a href="#Agents">Agents</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- carousel -->
+  <section class="carousel">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="./images/b1.jpg" alt="Los Angeles" style="width:100%;">
+          <div class="slider-info">
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="./images/b2.jpg" alt="Chicago" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="./images/b3.jpg" alt="New york" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="./images/b4.jpg" alt="New york" style="width:100%;">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+
+
+
+
+
+  <!-- About -->
+  <section id="About" class="About">
+    <p>About</p>
+    <div class="About__content">
+      <div class="About__item">
+        <i class="fa fa-home"></i>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores quidem, repellat dolor numquam placeat
+          voluptatum.</p>
+      </div>
+      <div class="About__item">
+        <i class="fa fa-key"></i>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores quidem, repellat dolor numquam placeat
+          voluptatum.</p>
+      </div>
+      <div class="About__item">
+        <i class="fa fa-money-bill-alt"></i>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores quidem, repellat dolor numquam placeat
+          voluptatum.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Aboutus -->
+  <section class="Aboutus">
+    <div class="Aboutus__content">
+      <span>About us</span>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus voluptate suscipit eum, inventore at fugit
+        maxime eos molestiae ut, neque quibusdam quam quia optio provident? Eaque, ducimus! Nostrum quia, recusandae
+        repudiandae quaerat ex, inventore libero temporibus aspernatur possimus quo, vero ipsa hic eaque doloremque
+        saepe delectus dignissimos labore. Minima, corporis. Blanditiis illum fugit impedit quod dolores rem aliquid
+        dolore excepturi distinctio? Saepe, porro quasi atque vel autem temporibus excepturi, optio ut eos a in
+        labore
+        blanditiis veniam commodi quod beatae.</p>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="Stats">
+    <h1>Stats</h1>
+    <div class="stats__content">
+      <div class="stats__item">
+        <p class="counter">3500</p>
+        <p>Cilents</p>
+      </div>
+      <div class="stats__item">
+        <p class="counter">650</p>
+        <p>Plans</p>
+      </div>
+      <div class="stats__item">
+        <p class="counter">10</p>
+        <p>projects</p>
+      </div>
+      <div class="stats__item">
+        <p class="counter">1010</p>
+        <p>Likes</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Blog -->
+  <section id="Blog" class="Blog">
+    <h1>Blog</h1>
+    <div class="Blog__content">
+      <div class="Blog__item">
+        <img src="./images/g1.jpg">
+        <div class="Blog__item__text">
+          <span>Lorem ipsum dolor </span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe harum, qui ipsum facere nam dicta ipsa,
+            dolorem numquam placeat debitis ratione? Debitis ducimus ex modi deserunt voluptas incidunt totam amet.
+          </p>
+          <button>Read more...</button>
+        </div>
+      </div>
+
+      <div class="Blog__item">
+        <img src="./images/g2.jpg">
+        <div class="Blog__item__text">
+          <span>Lorem ipsum dolor </span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe harum, qui ipsum facere nam dicta ipsa,
+            dolorem numquam placeat debitis ratione? Debitis ducimus ex modi deserunt voluptas incidunt totam amet.
+          </p>
+          <button>Read more...</button>
+        </div>
+      </div>
+
+      <div class="Blog__item">
+        <img src="./images/g1.jpg">
+        <div class="Blog__item__text">
+          <span>Lorem ipsum dolor </span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe harum, qui ipsum facere nam dicta ipsa,
+            dolorem numquam placeat debitis ratione? Debitis ducimus ex modi deserunt voluptas incidunt totam amet.
+          </p>
+          <button>Read more...</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- video -->
+  <section class="video">
+    <div classs="video__content">
+      <div class="play">
+        <a href="#small-dialog1" class="play-icon popup-with-zoom-anim"><span class="fa fa-play-circle"
+            aria-hidden="true"></span>
+        </a>
+        <div id="small-dialog1" class="w3ls_small_dialog wthree_pop mfp-hide">
+          <div class="agileits_modal_body">
+            <iframe src="https://player.vimeo.com/video/106770833"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="text">
+        <h1>Get More...</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aspernatur fugit distinctio in minus odio
+          minima
+          laudantium eius, porro quasi quaerat aperiam laborum sunt dolorem amet, fuga architecto odit nulla! Alias
+          consequuntur dolorem repudiandae maxime tempore ut et autem, cum, quas quasi ullam omnis nam, repellendus
+          non
+          minus? Corrupti officia, praesentium molestiae velit quasi fuga ducimus eius incidunt. Assumenda, totam.
+        </p>
+        <button>Read more...</button>
+      </div>
+      <div class="clear"></div>
+    </div>
+
+    <!-- Gallery -->
+    <section class="gallery">
+      <h1>Portfolio</h1>
+      <div class="gallery__content">
+
+        <div class="gallery__item">
+          <img src="./images/img1.jpg" alt="" />
+          <div class="gallery__black">
+            <h3>GALLERY</h3>
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+
+        <div class="gallery__item">
+          <img src="./images/img2.jpg" alt="" />
+          <div class="gallery__black">
+            <h3>GALLERY</h3>
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+
+        <div class="gallery__item">
+          <img src="./images/img6.jpg" alt="" />
+          <div class="gallery__black">
+            <h3>GALLERY</h3>
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+
+        <div class="gallery__item">
+          <img src="./images/img4.jpg" alt="" />
+          <div class="gallery__black">
+            <h3>GALLERY</h3>
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+
+        <div class="gallery__item">
+          <img src="./images/img5.jpg" alt="" />
+          <div class="gallery__black">
+            <h3>GALLERY</h3>
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+
+        <div class="gallery__item">
+          <img src="./images/img3.jpg" alt="" />
+          <div class="gallery__black">
+            <h3>GALLERY</h3>
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- subscribe -->
+    <section class="subscrise">
+      <div class="subscrise__content">
+        <h1>Subscrise</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, modi tenetur ut temporibus earum
+          tempore.
+        </p>
+      </div>
+      <div class="form__email">
+        <form>
+          <input type="text" placeholder="Email" /><br>
+          <button>Click</button>
+        </form>
+      </div>
+
+    </section>
+
+    <!-- our agents -->
+    <section class="ouragents">
+      <h1>Our Agents</h1>
+      <div class="ouragents__content">
+
+        <div class="ouragents__item">
+          <img src="./images/t1.jpg">
+          <div class="ouragents__item__text">
+            <h2>KAT WALLY </h2>
+            <p>Lorem, ipsum.
+            </p>
+            <div class="ouragents__item__text__icon">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fa fa-rss"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="ouragents__item">
+          <img src="./images/t4.jpg">
+          <div class="ouragents__item__text">
+            <h2>JOHN MAX</h2>
+            <p>Lorem, ipsum.
+            </p>
+            <div class="ouragents__item__text__icon">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fa fa-rss"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="ouragents__item">
+          <img src="./images/t2.jpg">
+          <div class="ouragents__item__text">
+            <h2>ROY KENT</h2>
+            <p>Lorem, ipsum.
+            </p>
+            <div class="ouragents__item__text__icon">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fa fa-rss"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="ouragents__item">
+          <img src="./images/t3.jpg">
+          <div class="ouragents__item__text">
+            <h2>JOY IDSON</h2>
+            <p>Lorem, ipsum.
+            </p>
+            <div class="ouragents__item__text__icon">
+              <i class="fab fa-facebook-square"></i>
+              <i class="fab fa-twitter-square"></i>
+              <i class="fa fa-rss"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map">
+      <div class="contact__top">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3745.657945920633!2d94.925709!3d20.148312999999998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30b7d19881308ae9%3A0x229dbaae31b864b9!2sZarmani!5e0!3m2!1sen!2sin!4v1419654909172"></iframe>
+      </div>
+    </section>
+
+    <section id="Contact" class="contact">
+      <div class="contact__form">
+        <h1>Contact Us</h1>
+        <form>
+          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Last Name" />
+          <input type="email" placeholder="Email" />
+          <input type="tel" placeholder="Phone" />
+          <textarea placeholder="Message" name="" id="" cols="30" rows="2"></textarea>
+          <button>Submit</button>
+        </form>
+      </div>
+
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="col-md-7 copyright">
+          <p>© 2017 Housing. All Rights Reserved | Design by <a href="http://w3layouts.com/" target="_blank">
+              W3layouts
+            </a></p>
+        </div>
+        <div class="col-md-5 bottom-head">
+          <div class="icons-buttn">
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-rss"></i></a></li>
+              <li><a href="#"><i class="fab fa-vk"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.js"></script>
+    <!-- thư viện hỗ trợ -->
+    <script>
+      $(document).ready(function () {
+        $(".popup-with-zoom-anim").magnificPopup({
+          type: "inline",
+          fixedContentPos: false,
+          fixedBgPos: true,
+          overflowY: "auto",
+          closeBtnInside: true,
+          preloader: false,
+          midClick: true,
+          removalDelay: 300,
+          mainClass: "my-mfp-zoom-in"
+        });
+      });
+    </script>
+
+    <!-- Jquery -->
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+          event.preventDefault();
+          $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+        });
+      });
+    </script>
+
+    <!-- WAYPOINT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"></script>
+
+    <!-- countup -->
+    <script>
+      !function (t) { "use strict"; t.fn.countUp = function (e) { var a = t.extend({ time: 2e3, delay: 10 }, e); return this.each(function () { var e = t(this), n = a, u = function () { e.data("counterupTo") || e.data("counterupTo", e.text()); var t = parseInt(e.data("counter-time")) > 0 ? parseInt(e.data("counter-time")) : n.time, a = parseInt(e.data("counter-delay")) > 0 ? parseInt(e.data("counter-delay")) : n.delay, u = t / a, r = e.data("counterupTo"), o = [r], c = /[0-9]+,[0-9]+/.test(r); r = r.replace(/,/g, ""); for (var d = (/^[0-9]+$/.test(r), /^[0-9]+\.[0-9]+$/.test(r)), s = d ? (r.split(".")[1] || []).length : 0, i = u; i >= 1; i--) { var p = parseInt(Math.round(r / u * i)); if (d && (p = parseFloat(r / u * i).toFixed(s)), c) for (; /(\d+)(\d{3})/.test(p.toString());)p = p.toString().replace(/(\d+)(\d{3})/, "$1,$2"); o.unshift(p) } e.data("counterup-nums", o), e.text("0"); var f = function () { e.text(e.data("counterup-nums").shift()), e.data("counterup-nums").length ? setTimeout(e.data("counterup-func"), a) : (delete e.data("counterup-nums"), e.data("counterup-nums", null), e.data("counterup-func", null)) }; e.data("counterup-func", f), setTimeout(e.data("counterup-func"), a) }; e.waypoint(u, { offset: "100%", triggerOnce: !0 }) }) } }(jQuery);
+    </script>
+    <script>
+      $(".counter").countUp();
+    </script>
+    <!-- LIGHTBOX JS -->
+    <script src="./js/lightbox.min.js"></script>
+
+    <!-- OWL JS -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        // margin: 10,
+        // nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          // 600: {
+          //     items: 1
+          // },
+          // 1000: {
+          //     items: 1
+          // }
+        },
+      });
+    </script>
+</body>
+
+</html>
